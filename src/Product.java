@@ -4,15 +4,17 @@ public class Product {
     private String name;
     private int price;
     private Adress adress;
+    private String description;
 
     public Product() {
 
     }
 
-    public Product(String name, int price, Adress adress) {
+    public Product(String name, int price, Adress adress, String description) {
         this.name = name;
         this.price = price;
         this.adress = adress;
+        this.description = description;
     }
 
     public Adress getAdress() {
